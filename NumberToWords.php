@@ -125,13 +125,4 @@
 		}
 	}
 	
-	
-	
-	error_reporting(-1);
 
-	$a = new NumberToWords();
-	$a->set_system('nepali');
-	
-	for($i = 100000000; $i <= 100000010; $i++) {
-		echo $a->convert(1004020000) . '<br>';
-	}
